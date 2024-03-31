@@ -1,0 +1,183 @@
+.payment-container{
+    width: 100%;
+    height: auto;
+    background: #EFF6F9;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.payment-container .row .col .billing-title{
+    color: #000;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 476;
+line-height: normal;
+}
+.payment-container .row .col .subscription-title{
+    width: 194px;
+height: 24px;
+flex-shrink: 0;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 665;
+line-height: normal;
+margin-top: 30px;
+}
+.payment-container .row .col .currentPlan-text{
+    color: #8B8B8B;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.payment-container .row .col .currentPlan-text span{
+    color: #25BE62;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 727;
+line-height: normal;
+}
+.payment-container .row .col .form-label{
+    color: #8B8B8B;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 10px;
+}
+.payment-container .row .col .form-select{
+    width: 161px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #D9D9D9;
+background: #FFF;
+}
+.payment-container .row .col .form-select option{
+    width: 99px;
+height: 24px;
+flex-shrink: 0;
+color: #BEBEBE;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 449;
+line-height: normal;
+}
+.payment-container .row .col .updatePlan-button{
+    width: 216px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #012B6D;
+margin-top: 20px;
+}
+.payment-container .row .col .updatePlan-button span{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 665;
+line-height: normal;
+
+}
+.payment-container .row .col .biiling-records-title{
+    width: 194px;
+height: 24px;
+flex-shrink: 0;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 665;
+line-height: normal;
+margin-top: 20px;
+}
+.payment-container .row .col .generate-invoice-button{
+    width: 216px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #25BE62;
+}
+.payment-container .row .col .generate-invoice-button span{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 665;
+line-height: normal;
+}
+.payment-container .row .col .table{
+    width: 100%;
+height: 53px;
+flex-shrink: 0;
+    border: 1px solid #D9D9D9;
+    background: rgba(255, 255, 255, 0.00);
+}
+.payment-container .row .col .table .table-head{
+    background: #EFF6F9;
+}
+.payment-container .row .col .table .table-head tr th{
+    color: #8B8B8B;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.refund-container{
+    width: 100%;
+height: auto;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin-top: 20px;
+}
+.refund-container .row .col .handleDispute-title{
+    width: 259px;
+height: 24px;
+flex-shrink: 0;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 665;
+line-height: normal;
+margin-top: 20px;
+}
+.refund-container .row .col .form-control{
+    width: 313px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #D9D9D9;
+background: #FFF;
+}
+.refund-container .row .col .submit-button{
+    width: 299px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #DF0707;
+margin-bottom: 10px;
+}
+.refund-container .row .col .submit-button span{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 665;
+line-height: normal;
+}
+@media (max-width:768px) {
+    .refund-container .row .col .form-control {
+        width: 170px;
+    }
+}

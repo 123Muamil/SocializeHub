@@ -1,0 +1,13 @@
+.mainContent{
+  margin-left: 260px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  
+}
+@media (max-width: 768px) {
+  .mainContent{
+    margin-left: 0px;
+  
+  }
+  
+}

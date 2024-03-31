@@ -1,0 +1,79 @@
+body{
+    background: #EFF6F9;
+}
+.auth-container{
+    width: 100%;
+height: auto;
+padding-top: 10px;
+}
+.auth-container .signup-contianer{
+   
+    width: 100%;
+height: 640px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.auth-container .signup-contianer .form{
+    padding-top: 70px;
+}
+.auth-container .signup-contianer .form-label{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 665;
+line-height: normal;
+}
+
+.auth-container .signup-contianer .form-control{
+    width: 100%;
+height: 50px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 1px solid #D0D2D3;
+background: #FFF;
+}
+.auth-container .signup-contianer .signup-button{
+    width: 216px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #012B6D;
+transition: background 0.3s ease; /* Add a smooth transition effect */
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 665;
+line-height: normal;
+margin-top: 50px;
+}
+.auth-container .signup-contianer .signup-button:hover{
+    background: linear-gradient(180deg, #012B6D 0%, #be709f 100%);
+    color: #FFF; /* Change the text color on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase the box shadow on hover */
+}
+.auth-container .signup-contianer .display{
+    display: flex;
+}
+.auth-container .signup-contianer .Flex{
+    flex: 1;
+}
+.auth-container .signup-contianer .Flex{
+    display: block;
+}
+/* Media Queries For all */
+@media (max-width: 768px) {
+    .auth-container .signup-contianer .form-label{
+     
+    font-size: 14px;
+    
+    }
+    .auth-container .signup-contianer .form-control{
+      
+    height: 40px;
+   
+    }
+}

@@ -1,0 +1,81 @@
+.documetation-container{
+    width: 100%;
+    height: 100vh;
+    background: #EFF6F9;
+    padding-top: 50px;
+}
+.user-button{
+    width: 216px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #ADADAD;
+background: #FFF;
+}
+.user-button span{
+    color: #1E1E1E;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.faq-button{
+    width: 216px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #ADADAD;
+background: #FFF;
+}
+.faq-button span{
+    color: #1E1E1E;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.doc-button{
+    width: 478px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #ADADAD;
+background: #012B6D;
+}
+.doc-button span{
+    color: #EFF6F9;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+.text{
+    color: #1E1E1E;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@media (max-width: 768px) {
+    .btn-group{
+        display: inline;
+        flex-direction: row;
+      
+    }
+    .btn-group button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

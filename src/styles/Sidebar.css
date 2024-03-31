@@ -1,0 +1,144 @@
+
+  
+  .sidebar {
+    width: 260px; /* Fixed width for desktop */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow: hidden;
+  padding-top: 20px;
+  transition: width 0.3s ease; /* Smooth transition for width changes */
+   
+  }
+  
+  .sidebar.collapsed {
+    width: 0px;
+  }
+  
+  .toggle-button {
+    display: none; /* Hide the toggle button by default */
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  cursor: pointer;
+  color: #FFF;
+  }
+  
+  .toggle-button i {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  
+  nav li i {
+    font-size: 24px;
+    margin-right: 10px;
+   
+  }
+  
+  nav li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  
+  .sidebar.collapsed li a {
+    display: none;
+  }
+  #Dashboard Code 
+  /* Define styles for the dashboard item */
+.dashboard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    transition: all 0.3s ease;
+    color: #FFF;
+  }
+  
+  /* Style the dashboard header */
+  .dashboard .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style the navigation link and icon */
+  .nav-link {
+    display: flex;
+    padding: .3rem;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: flex-start;
+  }
+ 
+  /* Style the chevron icon for toggling */
+  .toggle-icon  {
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #FFF;
+  }
+  .toggle-icon i{
+    margin-top: 10px;
+  }
+  /* Style the dashboard main content */
+  .dashboard-main {
+ 
+    display: none; /* Initially hidden */
+  }
+  
+  /* Define styles when the dashboard is open (visible) */
+  .dashboard.open {
+    background-color: #111729;
+    border: 1px solid #321729;
+
+  }
+
+  .dashboard.open .dashboard-main {
+    display: block;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+   
+    .sidebar {
+      width: 0; /* Hide the sidebar by default on small screens */
+    }
+    .toggle-button {
+      display: flex;
+    }
+  
+    sidebar.collapsed {
+      width: 260px; /* Show the sidebar when toggled on small screens */
+    }
+   
+    .toggle-button i {
+      font-size: 16px; /* Reduce icon size for smaller screens */
+    }
+  .toggle-icon {
+    margin-top: 0px;
+  }
+    nav li i {
+      font-size: 18px; /* Reduce icon size for smaller screens */
+    }
+  
+    
+  
+    .sidebar.collapsed li a {
+      display: flex; /* Show text for collapsed sidebar on smaller screens */
+    }
+    /* .sidebar.collapsed {
+        width: 32px;
+      } */
+      
+  }
+  
